@@ -1,0 +1,42 @@
+body {
+  overflow: hidden;
+}
+
+.login-layout {
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.part-one {
+  background-image: url("../img/login.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.part-two {
+  background-color: #e6f7f9;
+  font-weight: bold;
+}
+
+.top {
+  margin-top: 20vh;
+  margin-bottom: 50px;
+  line-height: 50px;
+}
+
+.button-div {
+  margin-bottom: 100px;
+}
+
+.login-button {
+  background-color: #14b5c8;
+  border-radius: 5px;
+  padding: 5px 20px;
+  color: #fff;
+  font-weight: bold;
+  border-color: transparent;
+}
+
+.breathing-space {
+  margin-bottom: 50px;
+}
