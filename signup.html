@@ -11,19 +11,27 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./css/style.css" />
-    <title>Interactive Care | Login</title>
+    <title>Interactive Care | Sign up</title>
   </head>
   <body>
-    <div class="row login-layout">
+    <div class="row signup-layout">
       <div class="d-none d-sm-block col-lg-8 col-md-6 part-one"></div>
       <div class="col-lg-4 col-md-6 part-two my-auto">
-        <div class="top text-center">
-          <h3>Log in</h3>
-          <p>Login as a user</p>
+        <div class="top-signup text-center">
+          <h3>Sign up</h3>
+          <p>Sign up as a user</p>
         </div>
         <div class="d-flex justify-content-center">
-          <!-- <div> -->
           <form action="" class="">
+            <div class="form-group">
+              <label for="">Username </label>
+              <input
+                type="username"
+                class="form-control"
+                id=""
+                placeholder="Enter username"
+              />
+            </div>
             <div class="form-group">
               <label for="">E-mail </label>
               <input
@@ -33,7 +41,7 @@
                 placeholder="Enter email"
               />
             </div>
-            <div class="form-group breathing-space">
+            <div class="form-group">
               <label for="">Password</label>
               <input
                 type="password"
@@ -41,15 +49,23 @@
                 placeholder="Password"
               />
             </div>
+            <div class="form-group breathing-space">
+              <label for="">Confirm Password</label>
+              <input
+                type="password2"
+                class="form-control"
+                placeholder="Enter password again"
+              />
+            </div>
             <div class="d-flex justify-content-center button-div">
-              <button type="submit" class="login-button">
-                Log in
+              <button type="submit" class="signup-button">
+                Sign up
               </button>
             </div>
           </form>
         </div>
         <div class="d-flex justify-content-center">
-          <p>Don't have an account? &nbsp; <a href="#">Sign up</a></p>
+          <p>Already have an account? &nbsp; <a href="#">Log in </a></p>
         </div>
       </div>
     </div>

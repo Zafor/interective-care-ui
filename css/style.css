@@ -1,14 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400;500;600;700;800&display=swap");
+
 body {
   overflow: hidden;
+  font-family: "Baloo Bhaina 2", cursive, sans-serif;
 }
+
+/* Login Page Styles */
 
 .login-layout {
   min-height: 100vh;
   min-width: 100vw;
+  background-color: #e6f7f9;
 }
 
 .part-one {
-  background-image: url("../img/login.png");
+  background-image: url("../img/illustration.png");
   background-position: center;
   background-size: cover;
 }
@@ -18,25 +24,80 @@ body {
   font-weight: bold;
 }
 
+.part-two a {
+  text-decoration: none;
+  color: #1db1cf;
+}
+
+.part-two a:hover {
+  color: #0d9aaa;
+}
+
 .top {
-  margin-top: 20vh;
   margin-bottom: 50px;
   line-height: 50px;
 }
 
 .button-div {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .login-button {
   background-color: #14b5c8;
-  border-radius: 5px;
-  padding: 5px 20px;
+  border-radius: 15px;
+  padding: 10px 40px 6px 40px;
   color: #fff;
   font-weight: bold;
   border-color: transparent;
 }
 
-.breathing-space {
-  margin-bottom: 50px;
+.login-button:hover {
+  background-color: #0d9aaa;
+  cursor: pointer;
 }
+
+.breathing-space {
+  margin-bottom: 30px;
+}
+
+.top h3 {
+  font-weight: bold;
+}
+
+/* End of Login Page styles */
+
+/* Sign up page styles */
+
+.signup-layout {
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: #e6f7f9;
+}
+
+.top-signup {
+  /* margin-top: 10vh; */
+  margin-bottom: 50px;
+  line-height: 50px;
+  /* font-weight: bold; */
+}
+
+.top-signup h3 {
+  font-weight: bold;
+}
+
+.signup-button {
+  background-color: #14b5c8;
+  border-radius: 15px;
+  padding: 10px 40px 6px 40px;
+  color: #fff;
+  font-weight: bold;
+  border-color: transparent;
+  text-transform: uppercase;
+}
+
+.signup-button:hover {
+  background-color: #0d9aaa;
+  cursor: pointer;
+}
+
+/* End of Sign up page styles */
