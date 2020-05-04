@@ -1,9 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400;500;600;700;800&display=swap");
 
 body {
-  overflow: hidden;
   font-family: "Baloo Bhaina 2", cursive, sans-serif;
   box-sizing: border-box;
+}
+.align-contents {
+  margin: auto;
+}
+section {
+  margin-bottom: 50px;
 }
 
 /* Login Page Styles */
@@ -122,11 +127,98 @@ body {
 /* Hero Section */
 
 .hero {
-  margin-top: 100px;
+  margin-top: 50px;
+}
+
+.hero h1 {
+  font-weight: 600;
+}
+
+.hero p {
+  font-weight: 500;
+  color: #7c7c7c;
+  font-size: 1.2rem;
+}
+
+.hero-login {
+  border: 2px solid #14b5c8;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: #14b5c8;
+  color: #fff;
+  border-radius: 10px;
+  padding: 8px 25px 4px 25px;
+  cursor: pointer;
+}
+
+.hero-signup {
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: #fff;
+  color: #333;
+  border-radius: 10px;
+  border: 2px solid #14b5c8;
+  padding: 8px 25px 4px 25px;
+  cursor: pointer;
 }
 
 .heroimage {
   width: 95%;
+}
+
+/* End of Hero Image Styles */
+
+/* featured section style starts here */
+.featured {
+  margin-top: 100px;
+  /* padding-top: 50px; */
+}
+
+.featured h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #bebebe;
+  margin-bottom: 50px;
+}
+.featured-images {
+  width: 100%;
+}
+.featured-images-br {
+  width: 55%;
+}
+
+/* featured section style ends here */
+
+/* Expert Section Starts */
+
+.experts {
+  margin: auto;
+}
+
+.experts-whyus {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.heading-bg span {
+}
+.experts-whyus h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/* Expert Section Ends */
+
+/* Education Style */
+
+.education {
+  margin-top: 50px;
+}
+
+.education-text {
+  margin: auto;
 }
 
 /* End of home page styles */
