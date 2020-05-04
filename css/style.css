@@ -3,6 +3,7 @@
 body {
   overflow: hidden;
   font-family: "Baloo Bhaina 2", cursive, sans-serif;
+  box-sizing: border-box;
 }
 
 /* Login Page Styles */
@@ -101,3 +102,30 @@ body {
 }
 
 /* End of Sign up page styles */
+
+/* Home page styles */
+
+/* Navbar section */
+
+.nav-link {
+  color: #333;
+  font-weight: bold;
+}
+
+.nav-link li:active {
+  color: #14b5c8;
+  font-weight: bold;
+}
+
+/* End of navbar */
+
+/* Hero Section */
+
+.hero {
+  margin-top: 100px;
+}
+
+.heroimage {
+}
+
+/* End of home page styles */
