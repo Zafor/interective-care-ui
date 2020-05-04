@@ -221,4 +221,122 @@ section {
   margin: auto;
 }
 
+/* End of Education */
+
+/* We have styles */
+
+.wehave {
+  padding-top: 40px;
+  background-color: #43c3d3;
+  margin-bottom: -50px;
+  padding-bottom: 50px;
+}
+.wehave h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.wehave p {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.wehave img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  display: block;
+}
+
+/* End of We have styles */
+
+/* Blogs Section Styles */
+
+.blogs {
+  background-color: #ececec;
+  padding-top: 50px;
+}
+.blogs h2 {
+  text-align: center;
+  font-weight: 600;
+}
+.blogs img {
+  width: 100%;
+}
+
+/* End of Blogs Section Styles */
+
+/* Newsletter Section Start */
+
+.newsletter h2 {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.subscriber {
+  margin: auto;
+}
+
+.subscriber button {
+  border: 0;
+  border-radius: 5px;
+  background-color: #88d9e3;
+  color: #333;
+  padding: 8px 30px 5px 30px;
+  font-weight: 600;
+  box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+.subscriber button:hover {
+  cursor: pointer;
+}
+
+.subscriber input {
+  text-align: center;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px 100px 6px 70px;
+  box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+/* Newsletter Section End */
+
+/* Footer Section */
+
+.footer {
+  background-color: #f7f7f7;
+  margin-bottom: -50px;
+}
+.footer-logo {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.app-download {
+  padding-bottom: 30px;
+  width: 40%;
+}
+
+.footer-links {
+  padding-top: 50px;
+  margin: auto;
+  font-weight: 600;
+}
+
+.footer-social {
+  margin: auto;
+  font-weight: 600;
+}
+
+.bottom-bar {
+  margin: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  /* font-weight: 600; */
+}
+/* End of Footer Section */
+
 /* End of home page styles */
