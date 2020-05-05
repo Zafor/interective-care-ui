@@ -3,10 +3,77 @@
 body {
   font-family: "Baloo Bhaina 2", cursive, sans-serif;
   box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: #0fb4c7;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(15, 180, 199, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.nav-item .active {
+  text-decoration: underline;
+  color: #0fb4c7;
+}
+
+a:hover {
+  color: #0fb4c7;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  body {
+    font-size: 0.8rem;
+  }
 }
 .align-contents {
   margin: auto;
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .align-contents {
+    align-content: center;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 50px;
+    /* overflow: hidden; */
+  }
+  .one {
+    order: 1;
+  }
+  .two {
+    order: 2;
+  }
+  .three {
+    order: 3;
+  }
+  .four {
+    order: 4;
+  }
+  .five {
+    order: 5;
+  }
+  .six {
+    order: 6;
+  }
+  .seven {
+    order: 7;
+  }
+  .eight {
+    order: 8;
+  }
+  .nine {
+    order: 9;
+  }
+  .ten {
+    order: 10;
+  }
+}
+
 section {
   margin-bottom: 50px;
 }
@@ -188,6 +255,24 @@ section {
   width: 55%;
 }
 
+@media (min-width: 320px) and (max-width: 767px) {
+  .featured-images {
+    width: 50%;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .featured-images-br {
+    width: 55%;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}
+
 /* featured section style ends here */
 
 /* Expert Section Starts */
@@ -222,6 +307,25 @@ section {
 }
 
 /* End of Education */
+
+/* userrating styles */
+.userrating h2 {
+  text-align: center;
+  font-weight: 600;
+}
+
+.userrating img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 10%;
+}
+
+.userrating p {
+  text-align: center;
+}
+
+/* end of userrating styles */
 
 /* We have styles */
 
@@ -282,6 +386,14 @@ section {
   margin: auto;
 }
 
+@media (max-width: 490px) {
+  .sub-button {
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+  }
+}
+
 .subscriber button {
   border: 0;
   border-radius: 5px;
@@ -326,9 +438,18 @@ section {
   font-weight: 600;
 }
 
+@media (max-width: 767px) {
+  .footer-links {
+    padding-top: 0px;
+  }
+}
+
 .footer-social {
   margin: auto;
   font-weight: 600;
+}
+.footer-social img {
+  padding: 2px;
 }
 
 .bottom-bar {
