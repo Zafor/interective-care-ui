@@ -3,6 +3,7 @@
 body {
   font-family: "Baloo Bhaina 2", cursive, sans-serif;
   box-sizing: border-box;
+  margin: 0;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -84,6 +85,8 @@ section {
   min-height: 100vh;
   min-width: 100vw;
   background-color: #e6f7f9;
+  position: absolute;
+  /* overflow-y: scroll; */
 }
 
 .part-one {
@@ -145,6 +148,7 @@ section {
   min-height: 100vh;
   min-width: 100vw;
   background-color: #e6f7f9;
+  position: absolute;
 }
 
 .top-signup {
@@ -512,3 +516,70 @@ section {
 }
 
 /* End of How We Care Page */
+
+/* User profile */
+
+.user-profile {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.user-profile a {
+  text-decoration: none;
+  color: #14b5c8;
+  font-weight: 600;
+  padding-top: 200px;
+}
+
+.user-image {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.user-profile form {
+  margin-bottom: 20px;
+}
+.user-profile form label {
+  font-weight: 600;
+}
+
+.user-profile input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.edit-user-image {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.user-edit-form {
+  text-align: left;
+}
+
+.user-profile button {
+  margin-top: 10px;
+  background-color: #14b5c8;
+  color: #fff;
+  border: 0;
+  padding: 10px 50px 8px 50px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+}
+
+.user-profile button:hover {
+  background-color: #0a8e9c;
+  transform: scale(1.1);
+}
+/*End of  User profile */
