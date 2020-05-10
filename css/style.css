@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400;500;600;700;800&display=swap");
 
+:root {
+  --heading-one-color: #09b1c5;
+  --heading-three-color: #4abdc9;
+}
+
 body {
   font-family: "Baloo Bhaina 2", cursive, sans-serif;
   box-sizing: border-box;
@@ -583,3 +588,27 @@ select {
   transform: scale(1.1);
 }
 /*End of  User profile */
+
+/* Privacy Policy */
+
+.privacy-policy-heading h1 {
+  margin-top: 50px;
+  font-weight: 600;
+  color: #09b1c5;
+  margin-bottom: 50px;
+}
+
+.privacy-policy-details h3 {
+  margin-top: 15px;
+  color: var(--heading-three-color);
+}
+
+.privacy-policy-details p {
+  font-size: 20px;
+  text-align: justify;
+}
+.privacy-policy-image img {
+  width: 100%;
+}
+
+/*End of  Privacy Policy */
