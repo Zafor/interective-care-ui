@@ -723,7 +723,7 @@ select {
   background-color: var(--regular-color);
   border: 0;
   margin-bottom: 50px;
-  border-radius: 5px;
+  border-radius: 15px;
   font-weight: 600;
   cursor: pointer;
 }
