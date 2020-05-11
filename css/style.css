@@ -612,3 +612,39 @@ select {
 }
 
 /*End of  Privacy Policy */
+
+/* Edit Expert Profile */
+
+.expert-image {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.edit-expert-image {
+  text-align: center;
+}
+.edit-expert-image a {
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--heading-one-color);
+}
+
+.edit-expert-image a:hover {
+  color: var(--heading-three-color);
+}
+
+.expert-form-width {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 750px;
+}
+
+.expert-form-width button {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+/*End of  Edit Expert Profile */
