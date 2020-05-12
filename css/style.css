@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400;500;600;700;800&display=swap");
 
-:root {
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+root {
   --heading-one-color: #09b1c5;
   --heading-three-color: #4abdc9;
   --regular-color: #14b5c8;
@@ -937,3 +938,139 @@ p {
   font-size: 20px;
 }
 /* End of Terms & Conditions */
+
+/* Expert Profile One - Expert View */
+
+.expert-view {
+  margin-top: 100px;
+}
+
+.top-content {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.top-content img {
+  width: 100px;
+}
+
+.expert-view-content {
+  margin-top: -90px;
+}
+
+.expert-view-content h4,
+p {
+  text-align: center;
+}
+
+.ratings {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.ratings span {
+  color: #13b5c8;
+  font-weight: 600;
+}
+
+.in-account {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+}
+
+.in-account h4 {
+  margin-top: 30px;
+}
+.in-account span {
+  color: #13b5c8;
+  font-weight: 600;
+}
+
+.imcome-graph-heading {
+  text-align: center;
+}
+
+.imcome-graph-heading h4 {
+  color: #13b5c8;
+  font-weight: 600;
+}
+
+.imcome-graph img {
+  width: 100%;
+}
+
+.upcoming-session {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.upcoming-session h4 {
+  color: #13b5c8;
+  font-weight: 600;
+}
+
+.session-chart {
+  text-align: center;
+  background-color: #ececec;
+  border-radius: 20px;
+  padding-top: 20px;
+  box-shadow: 0.3em 0.3em 0.6em rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+}
+.session-chart a {
+  text-decoration: none;
+}
+
+.postpone-session a {
+  background-color: #fff;
+  margin-top: -5px;
+  padding: 5px 15px 2px;
+  border-radius: 10px;
+  border: #29a4b2 2px solid;
+  color: #000;
+  font-weight: 500;
+}
+
+.start-session a {
+  background-color: #29a4b2;
+  margin-top: -5px;
+  padding: 5px 25px 2px;
+  border-radius: 10px;
+  border: #29a4b2 2px solid;
+  color: #fff;
+  font-weight: 500;
+}
+
+.rated i {
+  color: #13b5c7;
+}
+
+.view-profile a {
+  background-color: #29a4b2;
+  margin-top: -5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  border: #29a4b2 2px solid;
+  color: #fff;
+  font-weight: 500;
+}
+
+.expert-category {
+  margin-bottom: 40px;
+}
+
+.need-expert {
+  height: 100%;
+  width: 100%;
+  background-color: #f5f5f5;
+  text-align: center;
+  padding-top: 25px;
+  border-radius: 25px;
+  box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+/* End of Expert Profile One - Expert View */
