@@ -15,6 +15,10 @@ body {
   display: block;
 }
 
+button:focus {
+  outline: 0;
+}
+
 .custom-toggler.navbar-toggler {
   border-color: #0fb4c7;
 }
@@ -784,6 +788,7 @@ select {
   padding-left: 50px;
   padding-right: 50px;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .expert-book-button {
@@ -795,6 +800,7 @@ select {
   padding-left: 35px;
   padding-right: 35px;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .expert-contents {
@@ -816,6 +822,80 @@ select {
 
 .expert-contents h4 {
   color: var(--regular-color);
+}
+
+.expert-bio-details {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 480px;
+  margin-bottom: 30px;
+}
+
+.expert-bio-details p {
+  text-align: center;
+}
+
+.expert-brief h3,
+p {
+  text-align: center;
+  font-weight: 500;
+}
+.expert-brief h3 {
+  color: #08b1c5;
+}
+.expert-brief p {
+  color: #7c7c7c;
+}
+
+.expert-education {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.expert-education h3 {
+  text-align: center;
+  color: #0db2c6;
+  margin-bottom: 20px;
+}
+
+.color-heading {
+  color: #0bb2c5;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.emergency-session {
+  text-align: center;
+}
+
+.emergency-session a {
+  text-decoration: none;
+  color: var(--regular-color);
+}
+
+.more-suggestion h3 {
+  text-align: center;
+  font-weight: 600;
+  color: #0db3c6;
+}
+
+.back-to-button {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.back-to-button a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  border-radius: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  background-color: #6dccd9;
+  cursor: pointer;
 }
 
 /* End of Expert Profile User View */
