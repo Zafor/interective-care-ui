@@ -840,13 +840,20 @@ select {
 }
 
 .need-expert {
-  height: 100%;
   width: 100%;
+  height: inherit;
   background-color: #f5f5f5;
   text-align: center;
+  font-size: 18px;
+  font-weight: 500;
   padding-top: 25px;
   border-radius: 25px;
   box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.need-expert a {
+  text-decoration: none;
+  color: inherit;
 }
 
 /* End of Expert Profile One - Expert View */
@@ -1140,3 +1147,35 @@ select {
 }
 
 /* End of Favorite Experts */
+
+/* Find our Experts */
+
+.find-our-expetrs-title {
+  margin-top: 100px;
+}
+.find-our-expetrs-title h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 600;
+}
+.find-expert-card img {
+  margin-bottom: 10px;
+}
+
+.find-expert-card h4 {
+  font-weight: 600;
+}
+
+.find-expert-card p {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--regular-color);
+}
+
+.find-our-experts {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+/* End of Find our Experts */
