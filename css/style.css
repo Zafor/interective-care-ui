@@ -30,10 +30,6 @@ body {
   color: #0fb4c7;
 }
 
-a:hover {
-  color: #0fb4c7;
-}
-
 @media (min-width: 768px) and (max-width: 1023px) {
   body {
     font-size: 0.8rem;
@@ -1059,3 +1055,88 @@ select {
   font-size: 20px;
 }
 /* End of Terms & Conditions */
+
+/* Favorite Experts */
+
+.favorite-expert-heading {
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+.favorite-expert-heading h2 {
+  text-align: center;
+  color: #00abc1;
+  font-weight: 600;
+}
+
+.expert-card {
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 25px;
+  box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.expert-card img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 50%;
+}
+.expert-card h4 {
+  text-align: center;
+}
+.expert-card a {
+  text-align: center;
+  display: block;
+  text-decoration: none;
+}
+
+.expert-card .expert-view-profile {
+  border: #3bc0d0 2px solid;
+  padding-top: 5px;
+  border-radius: 25px;
+  color: #00a0b9;
+}
+
+.expert-card .expert-book-session {
+  margin-top: 5px;
+  padding-top: 5px;
+  border-radius: 25px;
+  color: #fff;
+  background-color: var(--regular-color);
+}
+
+.expert-card p {
+  text-align: center;
+}
+.expert-card table {
+  width: 100%;
+}
+
+.left-align {
+  text-align: left;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.favorite-expert {
+  margin-bottom: 40px;
+}
+.favorite-expert button {
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: 0;
+  background-color: #70d1dd;
+  border-radius: 10px;
+  padding: 10px 50px 5px;
+  font-weight: 500;
+}
+
+/* End of Favorite Experts */
