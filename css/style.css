@@ -8,6 +8,10 @@
   --regular-color: #14b5c8;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Baloo Bhaina 2", cursive, sans-serif;
   box-sizing: border-box;
@@ -1179,6 +1183,118 @@ select {
   margin-bottom: 50px;
 }
 /* End of Find our Experts */
+
+/* FAQ */
+
+.faq-search {
+  margin-top: 10px;
+  height: 20vh;
+  background-color: #14b5c8;
+}
+
+.faq-search h2 {
+  text-align: center;
+  padding-top: 25px;
+  color: #fff;
+}
+
+.search-form {
+  max-width: 500px;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/* Style the search field */
+form.faq input[type="text"] {
+  padding: 10px;
+  font-size: 17px;
+  border: none;
+  border-radius: 0px 10px 10px 0px;
+  float: right;
+  width: 80%;
+  background: #fff;
+}
+
+/* Style the submit button */
+form.faq button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #fff;
+  color: grey;
+  font-size: 17px;
+  border: none;
+  border-radius: 10px 0px 0px 10px;
+  cursor: pointer;
+}
+
+form.faq button:hover {
+  background: #03ddf5;
+  color: #fff;
+}
+
+/* Clear floats */
+form.faq::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.all-faq {
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 700px;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #f3f3f3;
+  color: #444;
+  cursor: pointer;
+  padding: 15px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.fa-play {
+  color: #14b5c8;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.accordion:hover {
+  background-color: #e7e6e6;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: #b9e8ee;
+  display: none;
+  overflow: hidden;
+  border-radius: 0px 0px 10px 10px;
+  margin-top: -25px;
+  padding-top: 15px;
+  margin-bottom: 10px;
+}
+
+.space-before-footer {
+  margin-top: 50px;
+}
+
+/* End of FAQ */
 
 /* Rate the Expert */
 
