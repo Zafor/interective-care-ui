@@ -1836,3 +1836,69 @@ textarea:focus {
 }
 
 /* End of Tutors list page */
+
+/* Book a session */
+.book-a-session {
+  height: 80vh;
+}
+
+.session-form {
+  background-color: #b7e8ee;
+  border-radius: 0px 35px 35px 0px;
+  text-align: center;
+  width: 60%;
+}
+
+.session-form form {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.session-form h2 {
+  margin-top: 10vh;
+  margin-bottom: 30px;
+}
+
+.session-form label {
+  text-align: left;
+}
+
+/* End of Book a session */
+
+/* Contact form */
+
+.contact-page {
+  margin-top: 10vh;
+}
+
+.contact-page h2 {
+  text-transform: uppercase;
+}
+
+.contact-send button {
+  margin-top: 15px;
+  background-color: #33abc2;
+  border: 0;
+  color: #fff;
+  padding: 6px 20px 2px;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.contact-send button:focus {
+  outline: none;
+}
+
+.contact-info i {
+  display: block;
+  color: #33abc2;
+}
+
+.contact-info a {
+  display: block;
+  text-decoration: none;
+  color: #33b5d6;
+}
+/* End of Contact form */
