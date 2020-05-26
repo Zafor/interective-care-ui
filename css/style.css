@@ -1837,58 +1837,6 @@ textarea:focus {
 
 /* End of Tutors list page */
 
-/* Book a session */
-.session-page {
-  width: 100vw;
-}
-.session-book-section {
-  margin-bottom: -50px;
-}
-.book-a-session {
-  height: 80vh;
-  background-color: #b7e8ee;
-  border-radius: 0px 35px 35px 0px;
-  width: 60vw;
-  margin-bottom: 50px;
-}
-
-.session-header {
-  padding-top: 10vh;
-}
-
-.session-form h2 {
-  margin-bottom: 5vh;
-  text-align: center;
-}
-
-.session-form input {
-  margin-bottom: 1vh;
-}
-
-.payment-via {
-  margin-top: 3vh;
-  margin-bottom: 3vh;
-}
-
-.book-session-button {
-  background-color: #02707f;
-  border: 0;
-  color: #fff;
-  font-weight: 600;
-  padding: 8px 30px 6px;
-  border-radius: 10px;
-  cursor: pointer;
-}
-
-.book-session-button:focus {
-  outline: none;
-}
-.session-charge {
-  width: 40vw;
-  float: right;
-}
-/* End of Book a session */
-
 /* Contact form */
 
 .contact-page {
@@ -2005,3 +1953,185 @@ textarea:focus {
   padding: 8px 30px 6px;
 }
 /* End of Transaction History */
+
+/* Book a session */
+
+.session-div {
+  background-color: #b7e8ee;
+  padding: 10px;
+  height: 80vh;
+  border-radius: 0px 30px 30px 0px;
+}
+
+.back-to-prev img {
+  width: 40px;
+}
+
+.session-header {
+  text-align: center;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+}
+.payment-methods {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.session-charge {
+  margin-top: 20vh;
+}
+
+.form-elements {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.payment-label {
+  align-content: justify;
+  text-align: justify;
+  display: inline-block;
+}
+
+.book-a-session {
+  background-color: #02707f;
+  border: 0;
+  color: #fff;
+  padding: 6px 30px 3px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.book-a-session:focus {
+  outline: none;
+}
+
+.session-charge input {
+  border-radius: 10px;
+  border: #333 1px solid;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.session-charge input:focus {
+  outline: none;
+}
+
+.session-charge {
+  font-weight: 500;
+}
+
+.total-session-charge {
+  margin-top: 3vh;
+}
+/* End of Book a session */
+
+/* Messages */
+
+.user-sidebar-card {
+  background-color: #f3f3f3;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 0px 30px 30px 0px;
+  box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+.sidebar-content {
+  max-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.message-header h2 {
+  text-align: center;
+}
+
+.user-header h2 {
+  text-align: center;
+}
+
+.message-user-profile-bg {
+  height: 80vh;
+  background-color: #f8f8f8;
+}
+
+.message-user-profile {
+  padding: 20px;
+  text-align: center;
+}
+
+.message-user-profile a {
+  text-decoration: none;
+  color: #14b5c8;
+  font-weight: 500;
+}
+
+.msg-side-img img {
+  width: 40px;
+}
+
+.user-activity small {
+  float: right;
+  margin-top: -80px;
+}
+
+.messages-left img {
+  width: 40px;
+  float: left;
+  display: block;
+}
+
+.messages-left p {
+  padding: 10px;
+  background-color: #e8e8e8;
+  border-radius: 0px 30px 30px 30px;
+  display: inline-block;
+  margin-left: 5px;
+  font-weight: 500;
+  box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.messages-right img {
+  width: 40px;
+  float: right;
+  display: block;
+}
+
+.messages-right p {
+  float: right;
+  padding: 10px;
+  background-color: #6bcad5;
+  color: #fff;
+  border-radius: 30px 0px 30px 30px;
+  display: inline-block;
+  margin-right: 5px;
+  font-weight: 500;
+  box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.msg-user-brief {
+  margin-top: 10vh;
+  text-align: center;
+  font-weight: 600;
+}
+
+.msg-user-brief h4 {
+  margin-top: 10px;
+}
+
+.msg-user-brief img {
+  width: 70px;
+}
+
+.msg-user-brief button {
+  background-color: #14b5c8;
+  color: #fff;
+  padding: 10px 30px 5px;
+  border-radius: 15px;
+  border: 0;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.msg-user-brief button:focus {
+  outline: none;
+}
+
+/*End of Messages */

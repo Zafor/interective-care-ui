@@ -60,63 +60,92 @@
 
     <!-- End of Navigation -->
 
-    <section class="session-book-section">
-      <div class="book-a-session">      
-            
-       <div class="session-header">
-                <h2>Book a Session with Captain Jack</h2>
-              </div>
-              <div class="d-flex justify-content-center">
-                <!-- <div> -->
-                <form action="" class="">
-                  <div class="form-group">
-                    <label for="">Date </label>
-                    <input
-                      type="date"
-                      class="form-control"
-                      name="date"
-                      id=""
-                      placeholder=""
-                    />
-                  </div>
-                  <div class="form-group">
-                    <label for="">Time</label>
-                    <input
-                      type="text"
-                      class="form-control"
-                      name="time"
-                      placeholder=""
-                    />
-                  </div>
-                  <div class="form-group">
-                    <label for="">Duration</label>
-                    <input
-                      type="text"
-                      class="form-control"
-                      name="duration"
-                      placeholder=""
-                    />
-                  <div class="form-group payment-via">
-                  <input type="radio"> Payment via 
-                  <img src="/img/bkash.png" alt="">
-                  <img src="/img/rocket.png" alt="">
-                  <img src="/img/dbbl.png" alt="">
-                  <img src="/img/mastercard.png" alt="">
-                  <img src="/img/visa.png" alt="">
-                  <img src="/img/american-express.png" alt="">
-                  </div>
-                  <div class="d-flex justify-content-center button-div">
-                    <button type="submit" class="book-session-button">
-                      Book a Session
-                    </button>
-                  </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-8 col-md-8 col-sm-12">
+          <div class="session-div">
+            <div class="back-to-prev">
+              <a href=""><img src="/img/back-arrow.png" alt="" /></a>
+            </div>
+            <div class="session-header">
+              <h2>Book a session with Captain Jack</h2>
+            </div>
+            <div class="session-form d-flex justify-content-center">
+              <form action="">
+                <div class="form-group">
+                  <label for="">Date </label>
+                  <input
+                    type="text"
+                    name="date"
+                    class="form-control"
+                    id=""
+                    placeholder=""
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="">Time </label>
+                  <input
+                    type="text"
+                    name="time"
+                    class="form-control"
+                    id=""
+                    placeholder=""
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="">Duration </label>
+                  <input
+                    type="text"
+                    name="duration"
+                    class="form-control"
+                    id=""
+                    placeholder=""
+                  />
+                </div>
+                <div class="payment-methods">
+                  <input type="radio" name="" id="" />Payment via
+                  <img src="/img/bkash.png" alt="" />
+                  <img src="/img/rocket.png" alt="" />
+                  <img src="/img/dbbl.png" alt="" />
+                  <img src="/img/mastercard.png" alt="" />
+                  <img src="/img/visa.png" alt="" />
+                  <img src="/img/american-express.png" alt="" />
+                </div>
+                <div class="d-flex justify-content-center">
+                  <button type="submit" class="book-a-session">
+                    Book a Session
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="session-charge">
+            <div class="row">
+              <div class="col-lg-4"><p>Session Charge</p></div>
+              <div class="col-lg-6"><p>BDT 180</p></div>
+            </div>
+            <div class="row">
+              <div class="col-lg-4">
+                <p>Have any coupon?</p>
+                <form action="">
+                  <input type="text" />
+                  <button class="book-a-session" type="submit">Apply</button>
                 </form>
               </div>
-            </div>       
-          
-        
-        
-  </section>
+              <div class="col-lg-6">
+                <p>BDT 0</p>
+              </div>
+            </div>
+            <div class="row total-session-charge">
+              <div class="col-lg-4"><p>Total Session Charge</p></div>
+              <div class="col-lg-6"><p>BDT 180</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Footer -->
 
