@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Interactive Care | Job Board</title>
+  </head>
+  <body>
+    <!-- Navigation  -->
+
+    <div class="container">
+      <nav class="navbar navbar-expand-sm">
+        <a href="/home.html" class="navbar-brand">
+          <img src="/img/logo.png" />
+        </a>
+        <button
+          class="custom-toggler navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="/home.html" class="nav-link text-nowrap">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="/how-we-care.html" class="nav-link text-nowrap"
+                >How we care</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-nowrap">Easy Ask</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-nowrap">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-nowrap">Resources</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-nowrap">Contact us</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-nowrap">EN</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <!-- End of Navigation -->
+
+    <div class="container">
+      <div class="job-board-title">
+        <h2>Explore Exclusive Job Opportunities</h2>
+      </div>
+      <div class="job-board-subtitle">
+        <p>If you're passionate and ready to dive in, we'd love to meet you.</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-12">
+          <div class="job-search-category">
+            <div>
+              <p>Location</p>
+            </div>
+            <div class="job-location">
+              <div>
+                <label for="area">Any Area</label>
+              </div>
+              <div>
+                <select class="select-css">
+                  <option value="default"></option>
+                  <option value="dhaka">Dhaka</option>
+                  <option value="chittagong">Chittagong</option>
+                  <option value="sylhet">Sylhet</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="job-type">
+            <div>
+              <p>Job Type</p>
+            </div>
+            <div class="job-board-job-type">
+              <div class="job-type-checkbox">
+                <label class="item" for="">Full-time</label>
+                <input class="item" type="checkbox" name="" id="" />
+              </div>
+              <div class="job-type-checkbox">
+                <label class="item" for="">
+                  Part-time
+                </label>
+                <input class="item" type="checkbox" name="" id="" />
+              </div>
+              <div class="job-type-checkbox">
+                <label class="item" for="">
+                  Contractual
+                </label>
+                <input class="item" type="checkbox" name="" id="" />
+              </div>
+              <div class="job-type-checkbox">
+                <label class="item" for="">
+                  Internship
+                </label>
+                <input class="item" type="checkbox" name="" id="" />
+              </div>
+            </div>
+          </div>
+          <div class="salary-type">
+            <div>
+              <p>Salary</p>
+            </div>
+            <div class="job-board-salary">
+              <div class="salary-type-checkbox">
+                <label class="item" for="">Less than 2000</label>
+                <input class="item" type="checkbox" name="" id="" />
+              </div>
+              <div class="salary-type-checkbox">
+                <label class="item" for="">
+                  2000-5000
+                </label>
+                <input class="item" type="checkbox" name="" id="" />
+              </div>
+              <div class="salary-type-checkbox">
+                <label class="item" for="">
+                  5000-10000
+                </label>
+                <input class="item" type="checkbox" name="" id="" />
+              </div>
+              <div class="salary-type-checkbox">
+                <label class="item" for="">
+                  10000+
+                </label>
+                <input class="item" type="checkbox" name="" id="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-9 col-md-9 col-sm-12">
+          <div class="job-board-card">
+            <div class="job-card-part-one">
+              <h4 class="job-card-item-top-one">Home Tutor</h4>
+              <p class="job-card-item-top-two">Salary : 3000 Tk</p>
+              <button class="job-card-item-top-three">Apply</button>
+            </div>
+            <div class="job-card-part-two">
+              <small class="job-card-item">Category: Bangla Medium</small>
+              <small class="job-card-item">Class: Class 7</small>
+              <small class="job-card-item">Days: 4</small>
+              <small class="job-card-item">Area: Dhaka</small>
+            </div>
+            <div class="job-card-part-three">
+              <small class="job-card-item">No. of Students: 1</small>
+              <small class="job-card-item">Gender: Female</small>
+              <small class="job-card-item">Tutor Gender Preference: Any</small>
+              <small class="job-card-item"
+                >Subjects: English, General Math, General Science</small
+              >
+            </div>
+          </div>
+          <div class="job-board-card">
+            <div class="job-card-part-one">
+              <h4 class="job-card-item-top-one">SEO Expert</h4>
+              <p class="job-card-item-top-two">Salary : Negotiable</p>
+              <button class="job-card-item-top-three">Apply</button>
+            </div>
+            <div class="job-card-part-two">
+              <small class="job-card-item"
+                >Area: Interactive Cares Office</small
+              >
+              <small class="job-card-item">Part Time</small>
+              <small class="job-card-item">Days: 4</small>
+              <small class="job-card-item">Area: Dhaka</small>
+            </div>
+            <div class="job-card-part-three">
+              <small class="job-card-item">Vacancies: 1</small>
+            </div>
+          </div>
+          <div class="job-board-card">
+            <div class="job-card-part-one">
+              <h4 class="job-card-item-top-one">Home Tutor</h4>
+              <p class="job-card-item-top-two">Salary : 3000 Tk</p>
+              <button class="job-card-item-top-three">Apply</button>
+            </div>
+            <div class="job-card-part-two">
+              <small class="job-card-item">Category: Bangla Medium</small>
+              <small class="job-card-item">Class: Class 7</small>
+              <small class="job-card-item">Days: 4</small>
+              <small class="job-card-item">Area: Dhaka</small>
+            </div>
+            <div class="job-card-part-three">
+              <small class="job-card-item">No. of Students: 1</small>
+              <small class="job-card-item">Gender: Female</small>
+              <small class="job-card-item">Tutor Gender Preference: Any</small>
+              <small class="job-card-item"
+                >Subjects: English, General Math, General Science</small
+              >
+            </div>
+          </div>
+          <div class="job-board-card">
+            <div class="job-card-part-one">
+              <h4 class="job-card-item-top-one">Home Tutor</h4>
+              <p class="job-card-item-top-two">Salary : 3000 Tk</p>
+              <button class="job-card-item-top-three">Apply</button>
+            </div>
+            <div class="job-card-part-two">
+              <small class="job-card-item">Category: Bangla Medium</small>
+              <small class="job-card-item">Class: Class 7</small>
+              <small class="job-card-item">Days: 4</small>
+              <small class="job-card-item">Area: Dhaka</small>
+            </div>
+            <div class="job-card-part-three">
+              <small class="job-card-item">No. of Students: 1</small>
+              <small class="job-card-item">Gender: Female</small>
+              <small class="job-card-item">Tutor Gender Preference: Any</small>
+              <small class="job-card-item"
+                >Subjects: English, General Math, General Science</small
+              >
+            </div>
+          </div>
+          <div class="job-board-card">
+            <div class="job-card-part-one">
+              <h4 class="job-card-item-top-one">Home Tutor</h4>
+              <p class="job-card-item-top-two">Salary : 3000 Tk</p>
+              <button class="job-card-item-top-three">Apply</button>
+            </div>
+            <div class="job-card-part-two">
+              <small class="job-card-item">Category: Bangla Medium</small>
+              <small class="job-card-item">Class: Class 7</small>
+              <small class="job-card-item">Days: 4</small>
+              <small class="job-card-item">Area: Dhaka</small>
+            </div>
+            <div class="job-card-part-three">
+              <small class="job-card-item">No. of Students: 1</small>
+              <small class="job-card-item">Gender: Female</small>
+              <small class="job-card-item">Tutor Gender Preference: Any</small>
+              <small class="job-card-item"
+                >Subjects: English, General Math, General Science</small
+              >
+            </div>
+          </div>
+          <div class="job-board-card">
+            <div class="job-card-part-one">
+              <h4 class="job-card-item-top-one">Home Tutor</h4>
+              <p class="job-card-item-top-two">Salary : 3000 Tk</p>
+              <button class="job-card-item-top-three">Apply</button>
+            </div>
+            <div class="job-card-part-two">
+              <small class="job-card-item">Category: Bangla Medium</small>
+              <small class="job-card-item">Class: Class 7</small>
+              <small class="job-card-item">Days: 4</small>
+              <small class="job-card-item">Area: Dhaka</small>
+            </div>
+            <div class="job-card-part-three">
+              <small class="job-card-item">No. of Students: 1</small>
+              <small class="job-card-item">Gender: Female</small>
+              <small class="job-card-item">Tutor Gender Preference: Any</small>
+              <small class="job-card-item"
+                >Subjects: English, General Math, General Science</small
+              >
+            </div>
+          </div>
+          <div class="job-board-pagination">
+            <button class="job-prev-button">Prev</button>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>4</button>
+            <button>Next</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+
+    <section class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12 align-contents">
+            <img class="footer-logo" src="/img/logo.png" alt="" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+              accusamus incidunt sit ipsum sapiente error libero sint
+              reprehenderit sed illum dolor nulla asperiores atque impedit
+              alias, architecto omnis earum itaque.
+            </p>
+            <img src="/img/playstore.png" class="app-download" alt="" />
+            <img src="/img/applestore.png" class="app-download" alt="" />
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-12 footer-links align-contents">
+            <p>Privacy Policy</p>
+            <p>Terms & Conditions</p>
+            <p>Cookie Policy</p>
+            <p>Contacts</p>
+            <p>FAQ's</p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 footer-social align-contents">
+            <p>Connect with us</p>
+            <img src="/img/facebook.png" alt="" width="10%" />
+            <img src="/img/instagram.png" alt="" width="10%" />
+            <img src="/img/twitter.png" alt="" width="10%" />
+            <img src="/img/linkedin.png" alt="" width="10%" />
+            <img src="/img/youtube.png" alt="" width="10%" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="bottom-bar">
+            <p>&copy; Copyright 2020, Interective Cares, All rights reserved</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End of Footer -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
