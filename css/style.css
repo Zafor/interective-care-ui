@@ -2291,3 +2291,287 @@ textarea:focus {
 }
 
 /* End of Job Board */
+
+/* Blogs */
+
+.blog-featured-image {
+  margin-bottom: 10px;
+}
+
+.blog-featured-image img {
+  width: 100%;
+}
+
+.blog-featured-content a {
+  color: #00aac0;
+}
+
+.blog-featured-content h3 {
+  color: #43c3d3;
+}
+
+.blogs-sidebar-card-img img {
+  width: 100%;
+}
+
+.blogs-sidebar-card-content h5 {
+  color: #03afc3;
+}
+
+.blogs-sidebar-card-content a {
+  color: #03afc3;
+}
+
+.blogs-card-img img {
+  width: 100%;
+}
+
+.blogs-page-cards {
+  background-color: #f6f6f6;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.blogs-page-cards h5 {
+  color: #03afc3;
+}
+
+.blogs-page-cards a {
+  color: #03afc3;
+}
+
+/* End of Blogs */
+
+/* Blog View */
+
+.blog-view {
+  margin-top: 30px;
+}
+
+.blog-view-info-share {
+  text-align: center;
+}
+
+.blog-view-info-share p {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.share-view-count {
+  display: flex;
+}
+
+.share-view-count-item {
+  margin-right: 10px;
+}
+
+.social-share-icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.social-share-icons img {
+  max-width: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.blog-view-featured-image {
+  margin-bottom: 10px;
+}
+.blog-view-featured-image img {
+  width: 100%;
+}
+.blog-view-content {
+  margin-bottom: 50px;
+}
+.blog-view-content-publisher {
+  margin-bottom: 10px;
+}
+.blog-view-content-publisher small {
+  font-weight: 600;
+}
+.blog-view-content-publisher span {
+  color: #30c5d6;
+}
+
+.blog-view-content p {
+  text-align: justify;
+}
+
+.category-image img {
+  width: 100%;
+}
+
+.blog-view-category {
+  margin-top: 90px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.blog-view-category-title {
+  text-align: center;
+}
+
+.category-title p {
+  color: #00acc1;
+}
+
+.blog-view-category-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.category-image {
+  flex: 1;
+  margin-right: 15px;
+}
+
+.category-title {
+  flex: 2;
+}
+
+.social-sharing-left-sidebar {
+  margin-top: 20vh;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+}
+
+.social-sharing-left-sidebar img {
+  width: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-self: center;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .social-sharing-left-sidebar {
+    display: none;
+  }
+}
+
+.comment-numbers {
+  text-align: center;
+  color: #14b5c8;
+  font-weight: 600;
+}
+
+.comment-requirement small {
+  font-weight: 600;
+  padding: 10px;
+}
+.comment-requirement a {
+  color: #30c5d6;
+}
+
+.blank-comment {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.comment-user-img-default img {
+  text-align: center;
+  width: 50px;
+  padding: 5px;
+}
+
+.comment-box textarea {
+  width: 100%;
+  background-color: #fbfbfb;
+  box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.comment-post {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.comment-post button {
+  border: 0;
+  background-color: #14b5c8;
+  color: #fff;
+  padding: 6px 30px 2px;
+  border-radius: 10px;
+  text-align: center;
+  align-self: center;
+  box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.comment-post button:focus {
+  outline: none;
+}
+
+.commented-box {
+  margin-bottom: 10px;
+}
+
+.commented-user img {
+  width: 35px;
+  height: 35px;
+  margin-right: 5px;
+}
+
+.commented-user {
+  display: flex;
+}
+
+.commented-user {
+  text-align: center;
+}
+
+.commented-user span {
+  font-size: 0.8em;
+}
+
+.comment-reply-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.comment-reply-button button {
+  color: #30c5d6;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.comment-reply-button button:focus {
+  outline: none;
+}
+
+.comments {
+  text-align: justify;
+  width: 90%;
+}
+
+.view-more-comments {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.view-more-comments button {
+  border: 0;
+  background-color: #30c5d6;
+  color: #fff;
+  padding: 6px 30px 2px;
+  border-radius: 10px;
+  box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.view-more-comments button:focus {
+  outline: 0;
+}
+
+/* End of Blog View */
