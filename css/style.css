@@ -150,6 +150,26 @@ section {
 
 /* End of Login Page styles */
 
+/* Login option page */
+
+.login-role-div {
+  margin-bottom: 25px;
+}
+
+.login-role {
+  text-align: center;
+}
+
+.login-role img {
+  width: 100%;
+}
+
+.dont-have-account {
+  text-align: center;
+}
+
+/* End of  Login option page */
+
 /* Sign up page styles */
 
 .signup-layout {
